@@ -137,7 +137,7 @@
       Gender: fd.get("Gender") || "",
       Country: (fd.get("Country") || "").trim(),
       Academic_Level: fd.get("Academic_Level") || "",
-      Most_used_platform: fd.get("Most_Used_Platform") || "",
+      Most_Used_platform: fd.get("Most_Used_Platform") || "",
       Purpose_Of_Use: fd.get("Purpose_Of_Use") || "",
       Avg_Daily_Usage_Hours: fd.get("Avg_Daily_Usage_Hours") === "" ? NaN : parseFloat(fd.get("Avg_Daily_Usage_Hours")),
       Daily_Unlocks: fd.get("Daily_unlocks") === "" ? NaN : parseInt(fd.get("Daily_Unlocks"), 10),
